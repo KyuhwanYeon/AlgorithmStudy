@@ -18,7 +18,7 @@ int func(int N)
 }
 int main()
 {
-    int N;
+    int N,M;
     long Nmax = 1000001;
     dp.resize(Nmax, -1);
 
