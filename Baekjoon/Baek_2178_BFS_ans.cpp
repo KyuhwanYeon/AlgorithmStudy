@@ -40,7 +40,7 @@ vector<vector<int>> Graph::adjNode(vector<int> curr)
     if (curr[1] + 1 < map[0].size() && map[curr[0]][curr[1] + 1] == 1) // x+1, y
     {
         vector<int> tmpXplus1{curr[0], curr[1] + 1};
-        adjNodeList.push_back(tmpXplus1);
+        adjNodeList.emplace_back(tmpXplus1);
     }
     if (curr[0] + 1 < map.size() && map[curr[0] + 1][curr[1]] == 1) // x, y+1
     {
