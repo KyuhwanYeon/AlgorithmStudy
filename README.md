@@ -1,5 +1,5 @@
 # AlgorithmStudy
-Algorithm study for coding test  
+Algorithm studdiy for coding test  
 
 Study materials from baekjoon, codility
 
